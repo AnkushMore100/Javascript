@@ -1,0 +1,10 @@
+.container{
+    background-color: aquamarine;
+
+}
+
+@media screen and  (width: 200px){ 
+    
+    .container{ background-color: rgb(246, 246, 14);}
+
+}

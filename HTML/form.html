@@ -1,0 +1,61 @@
+<form autocomplete="off">
+    <label>Users Name</label> <br>
+    <input type="text"  maxlength="5" minlength="" required autocomplete="off"> <br>
+    <label>Mobile No</label> <br>
+    <input type="number"> <br>
+    <label>Email</label> <br>
+    <input type="email" readonly> <br>
+    <!-- Radio : Selection Only single Condition -->
+    <label>Gender</label> <br>
+    <input type="radio" name="Gender" id="male">  Male
+    <input type="radio" name="Gender" id="female"> Female
+    <input type="radio" name="Gender" id ="Other"> Other <br>
+    <!-- Checkbox : Multiple Selection -->
+    <label>Hobbies</label> <br>
+    <input type="checkbox" id="Painting" > Pianting <br>
+    <input type="checkbox" id="Dancing"> Dancing <br>
+    <input type="checkbox" id="Swimming"> Swimming <br>
+
+    <br><br><br><br><br>
+    <label>number only</label> <br>
+    <input type="text" value="8485864142" pattern="[0-9]{10}$" maxlength="10" required><br>
+    <label>Name</label><br>
+    <input type="text" pattern="[a-zA-Z]{10}$" placeholder="Entre Your Name here"maxlength="10" minlength="4"><br>
+    <input type="hidden" hidden input fiels br> <!--to hide from UI-->
+    <label>My School Name</label> <br><br>
+    <input type="text" value="Ch Shivaji Maharaj English School"> <br><br><br>
+
+     <label>City</label>
+     <select>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Nashik">Nashik</option>
+     </select><br><br>
+
+     <!-- Selected value show on UI -->
+     <select>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune" selected>Pune</option>
+        <option value="Nashik">Nashik</option>
+     </select> <br><br> 
+     <!-- Hide show on dropbox -->
+
+     <select>
+        <option value="" hidden></option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Nashik">Nashik</option>
+     </select>
+    
+
+
+    <br><br><br><br>
+    <button>Submit</button>
+       <!-- <input type="button" value="Submit"> --> 
+    <br><br><br>
+    <input type="button" value="Submit" >
+    
+ 
+</form>
+
+<!-- Names {username:"Ankush",surname:"More"} -->

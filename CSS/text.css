@@ -1,0 +1,14 @@
+.para{
+    border: 1px solid black;
+    width: 50px;
+    word-break: break-all;
+}
+
+div{
+    word-spacing: 10px;
+}
+
+p::selection{
+    color: aquamarine;
+    background-color: chocolate;
+}

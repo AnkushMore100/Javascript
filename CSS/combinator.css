@@ -1,0 +1,38 @@
+
+/* Descendant Selector */
+
+
+div p{
+    background-color: rgb(177, 134, 218);
+}
+
+/* Child Selector (>) */
+
+
+div > p{
+    background-color: blanchedalmond;
+}
+
+div + p {
+    background-color: brown;
+}
+
+
+
+
+/*  Mam Class */
+
+ /* div p{ 
+     color: aqua; 
+ } */ 
+  
+ /* div > p{ 
+     color: aqua; 
+ } */ 
+  
+ /* div + p{ 
+     color: aqua; 
+ } */ 
+ /* div ~ p{ 
+    color: aqua; 
+} */

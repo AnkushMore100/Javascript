@@ -1,0 +1,71 @@
+/* .span{
+    border: 1px solid black;
+     display: block; 
+    width: 200px;
+    height: 200px;
+    color: red;} */
+
+
+/* Static property */
+/* Satatic: default value:top/left/right/bottom/z-index/float not work */
+
+    .static-prop{
+        border: 1px solid rgb(213, 16, 16);
+        position: static;
+        top: 50px;
+    }
+
+    /* 2.Absoulute */
+
+.abs-value{
+    border: 2px solid black;
+    top: 57px;
+    position: absolute;
+    width: 100px;
+    height: 1000px;
+    text-transform: uppercase;
+ }
+
+ /* Relative */
+
+ .rel-position{
+
+    border: 2px solid black;
+    left: 146px;
+    top: 98px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+   
+
+ }
+ .h2{
+    text-align: center;
+    color: brown;
+    text-shadow: 4px 0px 2px greenyellow;
+    font-size: 40px;
+ }
+
+ .fix-value{
+    position: fixed;
+    height: 40px;
+    border: 1px solid black;
+    bottom: 0px;
+    width: 1100px;
+    background-color: blanchedalmond;
+    z-index: -1;
+ }
+
+
+
+ /* sticky */
+ .sticky-prop{
+   border:  2px solid black;
+   top: 2px;
+   position: sticky;
+   height: 25px;
+   background-color: blanchedalmond;
+   z-index: -1;
+
+ }

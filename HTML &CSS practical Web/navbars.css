@@ -1,0 +1,151 @@
+.navbar{
+
+  background-color: rgb(2, 51, 35)
+  ;
+  /* height: 42px; */
+  width: 1000px;
+  /* border-radius: 27px; */
+  padding: 5px 5px;
+  /* line-height: 37px; */
+  margin: 0px;
+  position: relative;
+  display: block;
+  
+
+}
+
+.navbar-container{
+  /* float: left; */
+  display: block; 
+  word-spacing: 25px;
+  font-size: 20px; 
+
+}
+
+.navbar-container a:hover{
+  background-color: aqua;
+  height: 40px;
+  width: 50px;
+}
+
+
+.navbar-container a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+}
+
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: rgb(2, 51, 35);
+  min-width: 105px;
+  z-index: 1;
+  left: 44px;
+}
+
+.dropdown-content a{
+  color: white;
+  text-decoration: none;
+  padding: 6px 0px;
+  display: block;
+  text-align: center;
+}
+
+.btn-container:hover .dropdown-content{
+  display: block;
+  background-color: red;
+}
+
+.dropdown-content a:hover{
+  background-color: blue;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;}
+
+
+.btn{
+  border: none;
+  background: none;
+  color: white;
+  position: relative;
+  top: -13px;
+  left: 48px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.btn:hover{
+  background-color: aqua;
+}
+
+
+
+.btn-container {
+  position: absolute;
+  top: 25px;
+  left: 140px;
+  background: none;
+  z-index: 1;
+  color: white;
+  display: block;
+  float: left;
+} 
+
+
+.link-1-container{
+  overflow: hidden;
+}
+
+.link-1-container a{
+  display: block;
+  text-decoration: none;
+}
+.link-1-container:hover .link-1-dropdown a{
+  display: block;
+}
+
+
+
+.link-1-dropdown{
+position: absolute;
+min-width: 100px;
+background:rgb(2, 51, 35);
+top: 114px;
+left: 105px;
+text-align: center;
+display: block;
+}
+
+.link-1-dropdown a{
+  color: white;
+  text-decoration: none;
+  display: none;
+}
+.link-1-dropdown:hover a{
+  display: block;
+}
+
+
+
+
+
+
+.search{
+  position: relative;
+  left: 410px;
+  top: -36px;
+  float: left;
+  box-shadow: 2px 2px 19px white;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 0px 7px;
+
+}
+

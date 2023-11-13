@@ -1,0 +1,34 @@
+.content{
+    position: absolute;
+    border: 2px solid black;
+    width: 300px;
+    left: 50px;
+    top: 171px;
+    height: 63px;
+    overflow: auto;
+}
+
+/* overflow value: hidden,scroll,auto,visible */
+
+/* overflow-y:scroll 
+overflow-x:hidden
+ */
+
+ /* Text Overflow :=> */
+ /* text overflow property overflow property sobtch use hote white space also required*/
+/* ellispsis mdhe jats use yete mnje dot dot mdhe */
+
+
+
+ .txt{
+    position: absolute;
+    border: 2px solid black;
+    width: 300px;
+    left: 50px;
+    top: 70px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+ }

@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background-color: rgb(203, 208, 208);
+    border: 2px solid red ;
+    color: brown;
+    font-family: cursive;
+
+}
+
+p{
+    color: red;
+    text-align: center;
+}
+/* Id-selector */
+
+#font-prop{
+text-align: Centre;
+font-family: fantasy;
+color: rgb(119, 70, 70);
+}
+
+/* class - Selector */
+
+.class-prop{
+    background-color: azure;
+    color: red;
+    border: 5px dashed yellowgreen;
+}
+
+/* Universal Selector */
+
+
+*{
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box-model{
+    width: 300px;
+    height: 50px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 0px;
+    outline:auto;
+    outline-color: red;
+    outline-width: 1px;
+    outline-offset: 10px;
+    outline-style: dotted;
+
+
+}

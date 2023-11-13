@@ -1,0 +1,62 @@
+
+.button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+.my-button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: brown;
+    color: #fff;
+    border: 1px solid goldenrod;
+    margin-top: 20px;
+}
+
+.my-button2{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#43ab92;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+}
+
+.my-button3{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #5050bc;;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 4px 4px lightgray;
+    border-radius: 5px;
+}
+
+
+
+a{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#43ab92;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+    box-shadow: 2px 2px lightgray;
+
+}

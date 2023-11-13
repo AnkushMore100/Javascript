@@ -1,0 +1,117 @@
+
+/* focus */
+
+input:focus{
+    background-color:bisque ;
+    color: blueviolet ;
+}
+
+/* Veg vegede element la vegdi property ghyachi asel tr */
+
+input.inpt:focus{
+    background-color:cadetblue;
+    color: yellow;
+}
+
+/* Unvisited Link */
+
+a:link{
+    color: red;
+}
+
+/* visited link  */
+  a:visited { 
+    color: green; 
+  } 
+  
+ /* mouse over link */ 
+  a:hover { 
+    color: hotpink; 
+  } 
+  
+ /* selected link */ 
+  a:active { 
+    color: blue; 
+  } 
+
+  /* psudo element */
+  
+  /* first letter beutify */
+p.para::first-letter{
+    color: red;
+}
+
+/* first line beautify */
+h3.hdn::first-line{
+    color: blueviolet;
+}
+
+/* madhtlya element color krne */
+
+.spn{
+    color: yellow ;
+}
+
+/* Marker */
+
+::marker{
+    color: red;
+    font-size: 25px;
+}
+
+/* Selection */
+
+::selection{
+    color: rgb(13, 241, 77);
+    background-color: #e9e914;
+}
+
+
+/* After/Before */
+
+label.lbl::before{
+    content: "\26B9";
+}
+
+label.lbl::after{
+    content: "\2689";
+}
+
+
+
+
+
+
+
+
+
+
+/* Unvisited  link */
+
+a.links{
+    color: #e9e914;
+}
+
+/* Visited link */
+
+a.visited{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

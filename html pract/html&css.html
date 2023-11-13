@@ -1,0 +1,236 @@
+<!--
+    1. What is Html?
+    html stand for hyper text marked launguage it is used to create website and web applications
+    and html elemnets tell the browser how to display the content
+
+    2.What is Element
+    html elements defined as start tag, some content and closing tag
+    
+    
+    1 Block level elements:-
+    it is always start new line
+    block level element takes up full width available
+    there are 2 common elements are p element & div elements
+    p element defines as paragarph
+    div element defines as divsion or sepration
+
+    2 Inline level elements :-
+    it does not start new line
+    inline level element takes up as much width necssary 
+    span elements inside in paragraph
+ -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My WebsiteS</title>
+</head>
+<body>
+   <p> I am from Maharshatra, i have Dream to became good Devlpoers
+    S
+</p>
+<p>sfk;fk kdfojo jfishyvgfmkb sdnjfhlmS</p>
+<div>lzdfjis dsfkhj dfkjf fjgoj f0hiS</div>
+<pre>
+    HTMl always ignores extra spaces and newlines.
+                 in order diplay a  
+                    Spiece of text as is we use pre tag
+</pre>
+    
+</body>
+</html>
+
+<!-- list
+there 3 types of list provide html
+1 unoreder list
+2 order list
+3 discription list -->
+
+<ul style="list-style-type: circle; display:inline-block;">
+    <li>Milk</li>
+    <li>Water</li>
+    <li>wheat</li>
+    <li>RiceS</li>
+</ul>
+
+<ol>
+    <li>Milk</li>
+    <li>Water</li>
+    <li>wheat</li>
+    <li>RiceS</li>
+</ol>
+
+<dl>
+    <dt>Milk</dt>
+    <dt>Noodeles</dt>
+    <dt>Golgappa</dt>
+    <dt>Chinese Rice</dt>
+    <dd>-- All items available but please wait 5 minutes After Given Order</dd>
+</dl>
+
+<!-- image -->
+
+<link rel="stylesheet" href="css.css"> <br><br><br>
+
+<img class="img" src="G:/Octomber 2023/html pract/Tiger.jpg" 
+alt="Tiger" height="200" width="200" opacity="0.5">
+
+<!-- Marquee Tag -->
+
+<marquee height="800" width="800" behavior="Alternate" direction="right" scrollamount="15"><b><u><i>
+    Please Note:- Today is last day to apply to form </i></u></b>
+</marquee> <br><br><br>
+
+
+<marquee behavior="Alternate" direction=" right" scrollamount="15">
+    <img src="G:/Octomber 2023/html pract/Tiger.jpg" alt="xyz" height="200" width="200">
+</marquee>
+
+
+
+<!-- mark -->
+
+<div>
+    dfjglk <mark style="color: red; background-color: bisque;"> <u> ldfkp kgpfkoj jdofjgk </u></mark> ckgk kfpholkfdpt9 cogtpo
+</div><br><br><br><br>
+
+<a href="file:///G:/Octomber%202023/html%20pract/html&css.html"> W3schools </a>
+
+
+<!-- Formating Tag -->
+
+<p> i am in 10 <sup>th</sup> class</p>
+<p>the formula of carbon-di-oxide is CO <sub>2</sub></p>
+
+
+<p><b> Ankush</b></p>
+<p><strong>Ankush</strong></p>
+
+<p><i>Ankush</i></p>
+<p><u>Ankush</u></p>
+<p><small>Ankush</small></p>
+<p><big>Ankush</big></p>
+
+
+<!-- Image,Audio and vedio -->
+
+<img src="G:/Octomber 2023/html pract/Tiger.jpg" height="100" alt="fsnh">
+
+<audio src="G:\Octomber 2023\HTML\ambient-piano-logo-165357.mp3" loop controls autoplay muted></audio>
+
+<video src="G:\Octomber 2023\HTML\pexels-ivan-samkov-6690022 (Original).mp4" height="200`" muted loop width="200" autoplay controls></video>
+
+
+
+<br><br><br><br><br>
+
+<!-- table -->
+
+<table class="xyz">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Age</th>
+
+    </tr>
+    <tr>
+        <td>Ankush</td>
+        <td>Dhule</td>
+        <td>29</td>
+    </tr>
+    <tr>
+        <td>Tushar</td>
+        <td>Dhule</td>
+        <td>20</td>
+    </tr>
+    <tr>   <td>Dinesh</td>
+        <td>Nagpur</td>
+        <td>22</td></tr>
+</table>
+<br><br><br><br><br><br>
+
+<form style="border: 1px solid black;padding:8px;margin:auto;">
+    <label >First Name</label>
+    <input type="text" name="F-Name" value="" pattern="[a-zA-Z]+{10}" placeholder="Entre Your First Name" required> <br> <br>
+    <label>Last Name</label>
+    <input type="text" name="Last-Name" value="Last-Name"><br><br>
+    <label>Date-Of-Birth</label>
+    <input type="date" name="DOB" id="DD/MM/YY"><br><br>
+    <label >Gmail</label>
+    <input type="text" name="Gmail" value="xyz@gmail.com"><br><br>
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="Hobbies" vlaue="">Racing
+    <input type="checkbox" name="Hobbies" vlaue="">Drawing
+    <input type="checkbox" name="Hobbies" vlaue="">Painting
+    <input type="checkbox" name="Hobbies" vlaue="">Riding <br><br>
+    <label>Gender:</label><br>
+    <input type="radio" name="Gender" value=""> Male
+    <input type="radio"name="Gender" value="">Female <br><br>
+    <label>Password</label>
+    <input type="password" name="Users-password" value=""> <br><br>
+
+    <button>Sumbit</button>
+    
+
+
+
+</form> <br><br><br>
+
+<!-- 1.inline css
+    2. internal css
+    3. external css - 1.element css 2. class css-->
+
+    <!-- selector
+    1.id selector
+    2. class selector
+    3. universal selector
+    4. group selectors/ group of elements -->
+
+<!-- inline css -->
+
+<div style="background-color: red;">
+    hcjbjker vlkvf okfpok vkoptk
+    <p style="color: rgb(40, 57, 4); font-family: cursive; font-size: 30px;">
+        Mumbai is Big city
+    </p>
+</div>
+
+
+
+<!-- internal css -->
+
+<style>
+    h2{
+        color: brown;
+        font-size: 25px;
+    }
+
+    p{
+        background-color: rgb(33, 190, 190);
+        font-family: fantasy;
+    }
+</style>
+
+<h2>Ankush
+    <p>hjikl jumklk uhjmkl,</p>
+</h2>
+
+<p>jklk uhijuh uhi</p>
+
+
+
+<!-- class css -->
+
+<!-- element
+class -->
+
+<link rel="stylesheet" href="xyz.css">
+
+<h1>
+    More
+</h1>

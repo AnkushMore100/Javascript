@@ -1,0 +1,33 @@
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color:#f1f1f1;;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #555;
+    position: fixed;
+    
+    
+
+}
+
+li a{
+    text-decoration-line: none;
+    columns: #000;
+    border: 1px solid rgb(7, 107, 107);
+    display:block ;
+
+}
+
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+.active{
+    background-color: #04AA6D;
+    color: white;
+}
