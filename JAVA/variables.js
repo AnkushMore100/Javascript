@@ -20,3 +20,6 @@ name = "Ankush"
 console.log(name);
 
 let SirName = 'More' // decleration + def
+console.log(SirName);
+
+

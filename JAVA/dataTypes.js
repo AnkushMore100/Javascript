@@ -14,3 +14,25 @@ console.log(typeof(amount));
 
 let city ="Mumbai is a big city 545421";
 console.log(typeof(city));
+
+// Boolean : true/false
+
+let isFavMovie = true ;
+console.log(typeof(isFavMovie))
+
+// Undefined
+
+let a ;
+console.log(a);
+
+console.log(typeof(a));
+
+let b = undefined;
+
+console.log(b);
+console.log(typeof(b));
+
+
+// let var false ="Ankush" // we can not decleare resreved keyword for variable name
+
+
