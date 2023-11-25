@@ -35,4 +35,41 @@ console.log(typeof(b));
 
 // let var false ="Ankush" // we can not decleare resreved keyword for variable name
 
+let r = "none"  // string
 
+let c = null;
+console.log('c',typeof(c));
+document.write(c, '<br>'); 
+
+// 15 number chya vr asel tr value round-up hote mnje value ek ni vadhte
+let cash =999999999999999
+document.write(cash,'<br>');
+
+
+// 15 peksha jasat value asel tr
+let cash1 = BigInt('9999999999999999') //1.36656 //1.37
+document.write(cash1);
+
+
+// array: [] : listing >> hetrogenous array
+
+let colors =['red','orange','blck']; // homogenous arr
+
+// interview point of view
+
+var studentNames = ["Ankush","Om",400,true,"Pravin","Jiya",test()]; // hetrogenious aaray
+
+document.write('<br>',"colors:",colors);
+document.write('<br>',"studentNames:",studentNames);
+console.log(studentNames);
+
+
+
+function test(){
+    return 50*20
+
+}
+
+let colors2 =[ 'red','orange','black','yellow']
+
+document.write('<br>',colors2[3]);
