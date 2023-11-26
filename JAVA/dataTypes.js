@@ -73,3 +73,34 @@ function test(){
 let colors2 =[ 'red','orange','black','yellow']
 
 document.write('<br>',colors2[3]);
+
+let cars = []; // Empty array
+console.log("cars>>",cars);
+
+// length operator: it gives length of array or string
+
+console.log(colors2.length);
+
+// object: (key:value)
+
+let std ={name:'Ankush',age:20,city:"Dhule"};
+
+let emp = {}; //Empty object
+
+console.log(std.name);
+console.log(std.age);
+
+
+
+std2 = [
+    {name:'Ankush',age:20,city:"Dhule"},
+    {name:'Pooja',age:30,city:"Nagpur"},
+    {name:'Rakesh',age:40,city:"Nashik"}
+]
+
+
+console.log(std2[0]);
+
+console.log(std2[0].age);
+
+console.log(std2.length)
