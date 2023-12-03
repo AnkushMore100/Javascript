@@ -103,4 +103,6 @@ console.log(std2[0]);
 
 console.log(std2[0].age);
 
-console.log(std2.length)
+console.log(std2.length);  // Array and string sathi use krto length
+
+
