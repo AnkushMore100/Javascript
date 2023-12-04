@@ -58,3 +58,32 @@ console.log(details.replaceAll(/Mumbai/ig,"ppppppp"));
 
 console.log(details.toUpperCase());
 console.log(details.toLowerCase());
+
+
+//String Concate
+
+let a ="ankush";
+let b = "More";
+
+let fullName = a.concat(b)
+let fullName1 = a.concat(' ',b)
+
+console.log(fullName)
+console.log(fullName1)
+
+// Trim
+
+let text3 = "       Hello    World!            ";
+let text4=  text3.trim();
+console.log(text4);
+
+console.log(text3.trimEnd());
+console.log(text3.trimStart());
+
+
+// split
+
+let myDate = "04/04/1992";
+var year = myDate.split("/");
+console.log(year)
+console.log(year[2])
