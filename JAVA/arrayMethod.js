@@ -54,3 +54,30 @@ colors = ['red','black','white']
 car = ['suzuki','tata','mahindra'];
 
 console.log(colors.concat(car));
+
+
+//delete
+
+const fruits7 = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits7[0];
+console.log(">>>>>>>>",fruits7);
+
+
+
+//Array Splice
+const fruits8 =["Bananna","Orange","Apple","Mango","Orange"];
+fruits8.splice(2,3,"Lemon","Kiwi");
+console.log(">>>>>>>>",fruits8);
+
+
+const fruits9 =["Bananna","Orange","Apple","Mango"];
+fruits9.splice(2,1,"Lemon","Kiwi");
+console.log(fruits9);
+
+
+// Slice
+
+
+const fruits10 =["Bananna","Orange","Apple","Mango"];
+r =fruits10.slice(0,3);
+console.log(r);
