@@ -30,3 +30,7 @@ if(marks >= 75){
  else{
     console.log("Failed")
 }
+
+// else if(marks > 0 && marks <35){
+//     console.log("Fail!!!")
+// }  as pn chalt pn else lavava lagto
