@@ -64,3 +64,14 @@ switch(amount){
         break;
 
 }
+
+
+//ternory operator condition ? true : False
+
+if (marks >35){
+    console.log("Pass......");
+}else{
+    console.log("fail");
+}
+
+marks > 35 ? console.log("Pass") : console.log("Fail");
