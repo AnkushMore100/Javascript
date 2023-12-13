@@ -149,8 +149,18 @@ if(age >=18 && age<=60){
     console.log("Valid EMp");
 };
 
+
+
+
+
+// parameterless function
+function test(){
+    console.log("Fun ciling");
+}
 };
 
+
+// parameterised function
 function userData(userName){
    console.log(userName)
 };
@@ -158,3 +168,16 @@ function userData(userName){
 function userPassword(userPass){
     console.log(userPass)
 };
+
+
+let a =8;
+let b =2;
+
+function multiplication(){
+    var res =a*b
+    multiplication2(res)
+}
+function multiplication2(result){
+    let res1 = 10 * result;
+    console.log(res1);
+}
