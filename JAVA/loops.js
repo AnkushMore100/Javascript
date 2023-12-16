@@ -24,6 +24,7 @@
 
 // empty loop infinite mdhe jato
 
+// index wise plkay krayech asel tr he method use krayechi ahe
 
 let color = ['red','blue','black','pink'];
 let color1 =[];
@@ -36,12 +37,42 @@ console.log(color1);
 
 
 
-// let color2 = ['red','blue','black','pink'];
-// let color3 =[];
-// for(let r = 0; r < color2.length; r++){
-//       if(color2[r]=='blue'){
-//           continue
-//         color3.push(color2[r])
-//         console.log(color3);
-//       }
-// }
+
+
+// for of // array sathi bnla ahe index start with = 0 and length start with 1
+// for in // object sathi bnla ahe
+
+let color2 = ['red','blue','black','pink'];
+let clr = []
+for(let x of color2){
+  clr.push(x)
+  console.log(clr);
+}
+
+
+
+let color3 = ['red','blue','black','pink','red11','blue1','black1','pink1'];
+let clr2 = [];
+
+for(let ind = 2 ; ind < color3.length ; ind++){
+  if(color3[ind] != 'black' && color3[ind] != 'blue1' && color3[ind] != 'pink1'){
+          clr2.push(color3[ind]);
+  }
+}
+console.log('clr2',clr2);
+
+
+
+// for in loop object
+
+stud = {
+  name:"Ankush",
+  age :24,
+  mobno : 154959585,
+  city : "dhule"
+}
+
+for(let a in stud){
+  console.log("Key print:",a)
+  console.log("Value is:",stud[a]);
+}
