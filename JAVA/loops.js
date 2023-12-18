@@ -75,4 +75,15 @@ stud = {
 for(let a in stud){
   console.log("Key print:",a)
   console.log("Value is:",stud[a]);
-}
+};
+
+
+
+// do while
+
+let g = 5;
+
+do{
+  console.log(g);
+   g++;
+} while(g<6);
