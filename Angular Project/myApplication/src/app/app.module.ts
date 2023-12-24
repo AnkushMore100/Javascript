@@ -3,16 +3,29 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ // comopo/directive/pipe
+    AppComponent,
+    HomeComponent
   ],
-  imports: [
+  imports: [  //modules update
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [], 
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  
+// propertyName : data type = value;
+
+a =20;
+b : number = 90;
+c! : number ;
+
+}
+
+
