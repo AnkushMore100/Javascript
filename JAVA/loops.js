@@ -87,3 +87,30 @@ do{
   console.log(g);
    g++;
 } while(g<6);
+
+
+// find method
+
+
+let a = [
+  { name: 'Ankush',city:"Dhule"
+},
+{ name: 'Pooja',city:"Nagpur"
+},
+{ name: 'ritu',city:"Nashik"
+},
+{ name: 'ritu1',city:"Nashik"
+},
+{ name: 'ritu2',city:"Nashik"
+}
+]
+
+
+
+
+
+let val = a.find(val =>{
+  return ele.name =='ritu1'
+})
+
+console.log(val);

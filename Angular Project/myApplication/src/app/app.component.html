@@ -1,28 +1,5 @@
 
 
 
-<div>Welcome</div>
-<p>{{a}}</p>
+<router-outlet></router-outlet>
 
-<div >{{city}}</div>
-
-{{city}}
-<br>
-<input type="text" value="patil" >
-<br>
-<input type="text" [value]="myName" (keyup)="inputBoxValue($event)">
-<br> {{myName}}
-<br>
-<input type="text" value="{{myName}}"><br>
-
-<input type="text" [disabled]="isDisable"><br>
-<input type="text" disabled="{{isDisable}}"><br>
-
-<button (click)="submit()">Submit</button>
-  <div>{{fruit}}</div><br>
-
-  <input type="text"[(ngModel)]="favFruit"> Entre Your Fav Fruit
-<br>
-  {{favFruit}}
-  
-<app-home></app-home>
