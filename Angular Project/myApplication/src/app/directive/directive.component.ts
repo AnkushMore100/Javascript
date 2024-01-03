@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./directive.component.css']
 })
 export class DirectiveComponent {
-  color = "yellow"
+  color = "yellow";
+  bgColorName : any = 'purple';
+  journey:any = 'user'
 // Angular 8 directives can be classified in 3 categories based on how they behave:
 
 // Component Directives
@@ -43,4 +45,8 @@ this.showDiv = !this.showDiv;
 }
 listItem = ["Coffee","Tea","Milk","Coffee","Tea","Milk","Coffee","Tea","Milk","Coffee","Tea","Milk","Coffee","Tea","Milk",]
 
+
+getColor(){
+  return this.bgColorName
+}
 }

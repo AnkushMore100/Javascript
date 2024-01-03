@@ -41,7 +41,17 @@
     <p *ngSwitchDefault>i don't like color</p>
     </div>
 
+    <div style="color: aqua;font-size: 30px;">I like mumbai</div> 
+
+    <div [ngStyle]="{backgroundColor : getColor()}">i like yellow</div>
+
+
+    <div class="div-container1">i like india</div>
+    <div [class.div-container2]="journey=='admin'">
+    <div [class.div-container1]="journey=='owner'">
+    <div [class.div-container]="journey=='user'">i like india1</div>
 
 
 
+<br><br><br><br><br>
 
