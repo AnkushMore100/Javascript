@@ -19,5 +19,9 @@ export class UserLoginComponent {
 login(data:any){
   console.log(data)
 }
+isShowPass =false;
 
+toShowPassword(){
+  this.isShowPass =! this.isShowPass
+}
 }
