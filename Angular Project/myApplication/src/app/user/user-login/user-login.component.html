@@ -17,7 +17,7 @@
     <h2>Login Form</h2>
     <form #loginForm ="ngForm">
         <label> UserName</label><br>
-        <input type="text" #userName="ngModel" ngModel name="uName" required pattern="[a-zA-Z]*$" minlength="2" maxlength="20" ngModel="Ankush">
+        <input type="text" #userName="ngModel" ngModel name="uName" required pattern="[a-zA-Z ]*$" minlength="2" maxlength="20" ngModel="Ankush">
 
         <div *ngIf="userName?.errors?.['required']  && userName?.touched" 
         class="error-msg">User Name is required</div>
@@ -47,6 +47,8 @@
         <br><br>
         <button (click)="login(loginForm.value)" [disabled]="!loginForm.valid">Submit</button>
     </form>
+
+    <a routerLink="/user/signup">Click here to create account..</a>
 </div>
 
 
