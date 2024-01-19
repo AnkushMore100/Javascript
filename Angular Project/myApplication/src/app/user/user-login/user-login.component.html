@@ -31,7 +31,9 @@
 
 
         <label> Password</label><br>
-        <input [type]=" isShowPass ? 'text' : 'password'" #pass="ngModel" ngModel name="password" required  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,12}$ " >
+        <input [type]=" isShowPass ? 'text' : 'password' " #pass="ngModel" ngModel
+         name="password" 
+         required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,12}$">
 
 
         <div  *ngIf="pass.errors?.['required'] && pass?.touched" class="error-msg">

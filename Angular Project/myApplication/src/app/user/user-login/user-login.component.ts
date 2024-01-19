@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-user-login',
@@ -6,6 +8,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-login.component.css']
 })
 export class UserLoginComponent {
+
+  // services import
+  constructor(private dataService:DataService,private router : Router){}
+  login(data:any){
+
+    console.log("data",data);
+    
+    this.dataService.userName = data.uName; // ankush
+    this.router.navigateByUrl('/user/usrSucc');
+
+
+
+
 
 
 // Template driven : form fileds are less
@@ -16,21 +31,28 @@ export class UserLoginComponent {
 //   console.log(data);
 // }
 
-login(data:any){
-  console.log(data)
- let userName =  data.uName.replace(/\s+/g, ' ')
- console.log(userName);
+
+
+
+
+
+
+//   console.log(data)
+//  let userName =  data.uName.replace(/\s+/g, ' ')
+//  console.log(userName);
  
- let request ={
-     'UserName': userName,
-     'Password' : data.Password
+//  let request ={
+//      'UserName': userName,
+//      'Password' : data.Password
  }
 
-}
-
-isShowPass =false;
+ isShowPass =false;
 
 toShowPassword(){
   this.isShowPass =! this.isShowPass
 }
+
 }
+
+
+

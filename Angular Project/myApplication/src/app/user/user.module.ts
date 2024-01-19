@@ -8,12 +8,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatIconModule} from '@angular/material/icon';
+import { UserSuccessComponent } from './user-success/user-success.component';
 console.log("user module...")
 
 @NgModule({
   declarations: [
     UserLoginComponent,
-    SignUpComponent
+    SignUpComponent,
+    UserSuccessComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +24,9 @@ console.log("user module...")
     FormsModule,
     ReactiveFormsModule,
     MatButtonModule,
-    MatInputModule,MatRadioModule
+    MatInputModule,
+    MatRadioModule,
+    MatIconModule
   ]
 })
 export class UserModule { }
