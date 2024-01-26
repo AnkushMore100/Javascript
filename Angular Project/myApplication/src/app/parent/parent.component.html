@@ -1,2 +1,5 @@
 <p>parent works!</p>
-<app-child [cityFromParent]='city'></app-child>
+
+{{stateFromChild}} <br><br>
+
+<app-child [cityFromParent]='city' (dataFromChild)="dataComingFromChild($event)"></app-child>
