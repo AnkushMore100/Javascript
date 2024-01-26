@@ -6,6 +6,7 @@ import { TestComponent } from './test/test.component';
 import { DirectiveComponent } from './directive/directive.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { DepedencyInjectionModule } from './depedency-injection/depedency-injection.module';
 
 const routes: Routes = [
   {path : "", component: HomeComponent},
@@ -16,6 +17,8 @@ const routes: Routes = [
   {path:'child',component:ChildComponent},
   {path: 'user', loadChildren:()=> import('./user/user.module').then(m=>m.UserModule)},
   {path:'admin',loadChildren:()=>import('./admin/admin.module').then(mod=>mod.AdminModule)},
+  {path:'injection',loadChildren:()=>import('./depedency-injection/depedency-injection-routing.module').then(mod=>mod.DepedencyInjectionRoutingModule)}
+
  
 ];
 
