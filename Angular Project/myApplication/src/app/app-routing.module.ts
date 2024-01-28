@@ -9,7 +9,7 @@ import { ChildComponent } from './child/child.component';
 import { DepedencyInjectionModule } from './depedency-injection/depedency-injection.module';
 
 const routes: Routes = [
-  {path : "", component: HomeComponent},
+  {path:"",component:HomeComponent},
   {path :"datbinding", component :DatabindingComponent},
   {path : 'test', component : TestComponent},
   {path : 'directive', component : DirectiveComponent},

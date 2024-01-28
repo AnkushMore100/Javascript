@@ -11,7 +11,7 @@ export class ChildComponent {
 
 
 //  child to parent
- @Output() dataFromChild = new EventEmitter;
+ @Output() dataFromChild = new EventEmitter<any>();
 
  state = 'MH-09'
 
