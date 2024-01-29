@@ -11,6 +11,7 @@ import { DirectiveComponent } from './directive/directive.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { PipeComponent } from './pipe/pipe.component';
 
 console.log("app module calling.....")
 
@@ -23,6 +24,7 @@ console.log("app module calling.....")
     DirectiveComponent,
     ParentComponent,
     ChildComponent,
+    PipeComponent,
     
   ],
   imports: [  //modules update

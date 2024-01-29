@@ -1,0 +1,33 @@
+<p>pipe works!</p>
+
+
+
+<h2>UpperCase</h2>
+<div >{{info | uppercase}}</div><br><br>
+
+<h2>LowerCase</h2>
+<div>{{info | lowercase}}</div><br><br>
+
+<h2>DATE Call</h2>
+<div>{{date1}}</div> <br><br>
+
+<h2>short date</h2>
+
+<div>{{date1 | date : 'short'}}</div><br><br>
+
+<h2>Table</h2>
+
+<input type="search"> search here...
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>City</th>
+    </tr>
+    <tr *ngFor= "let data of tableData">
+        <td>{{data.name}}</td>
+        <td>{{data.contact}}</td>
+        <td>{{data.city}}</td>
+    </tr>
+</table>
