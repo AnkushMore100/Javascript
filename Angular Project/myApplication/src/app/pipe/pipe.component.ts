@@ -11,7 +11,9 @@ export class PipeComponent {
   date1 = new Date()
 
 
+// pipe search table
 
+inputboxValue:any='';
 
   tableData = [
     {
